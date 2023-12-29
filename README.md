@@ -17,3 +17,10 @@ The following criteria has to be met:
 ## Output
 
 After tackling the 10-question challenge, your performance will be scored and added to the leaderboard.
+
+## Installation
+The project was uploaded to [GitHub](https://github.com/) at the following repository:
+[https://github.com/yukitoshi12345/Coding-Theory-Quiz](https://github.com/yukitoshi12345/Coding-Theory-Quiz)
+
+You can access the deployed application with the GitHub Pages link:
+[https://yukitoshi12345.github.io/Coding-Theory-Quiz/](https://yukitoshi12345.github.io/Coding-Theory-Quiz/)
