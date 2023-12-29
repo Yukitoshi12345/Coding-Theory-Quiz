@@ -1,6 +1,17 @@
 # Coding Theory Quiz
 To test our newly developed JavaScript skills and preparation for future coding challenges, I built an interactive, browser-based quiz application. This timed masterpiece, filled with multiple choice questions and sporting a dynamic, responsive UI, required us to code everything from scratch, HTML and CSS included, showcasing the power of pure JavaScript!
 
+## Table of Contents
+
+- [User Story](#user-story)
+- [Objectives](#objectives)
+- [Built With](#built-with)
+- [Video](#video)
+- [Explanation of Video](#explanation-of-video)
+- [Output](#output)
+- [Installation](#installation)
+- [License](#license)
+
 ## User Story
 
 ```md
