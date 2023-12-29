@@ -1,6 +1,14 @@
 # Coding Theory Quiz
 To test our newly developed JavaScript skills and preparation for future coding challenges, I built an interactive, browser-based quiz application. This timed masterpiece, filled with multiple choice questions and sporting a dynamic, responsive UI, required us to code everything from scratch, HTML and CSS included, showcasing the power of pure JavaScript!
 
+## User Story
+
+```md
+AS A coding boot camp student
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+SO THAT I can gauge my progress compared to my peers
+```
+
 ## Objectives
 The following criteria has to be met:
 
@@ -9,6 +17,11 @@ The following criteria has to be met:
 - Answering incorrectly deducts time from the running clock.
 - The game ends when all questions are answered or the timer reaches zero.
 - Upon completion, users can save their initials and score.
+
+## Built With
+- HTML
+- CSS
+- JavaScript
 
 ## Video
 
