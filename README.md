@@ -14,3 +14,6 @@ The following criteria has to be met:
 
 ## Explanation of Video
 
+## Output
+
+After tackling the 10-question challenge, your performance will be scored and added to the leaderboard.
