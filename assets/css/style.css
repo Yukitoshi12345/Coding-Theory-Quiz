@@ -4,4 +4,112 @@
 
 /* ---------- Universal Selector ---------- */
 
+*{
+  background-color: pink;
+}
+
+/* ---------- Body ---------- */
+body {
+  font-family: 'Calibri', sans-serif;
+  font-size: 130%;
+}
+
+/* ---------- Main ---------- */
+main {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: #563d7c;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #8570a5;
+}
+
+/* ---------- Buttons ---------- */
+button {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: #f50e25;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background-color: #39d409;
+}
+
+/* ---------- "View Highscores" text positioning ---------- */
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* ---------- "Time:[value]" text positioning  ---------- */
+.quiz-timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* ---------- Centering main page  ---------- */
+.center {
+  text-align: center;
+}
+
+/* ---------- Hiding Sections  ---------- */
+.hidden {
+  display: none;
+}
+
+/* ---------- Feedback Section  ---------- */
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 40px;
+  padding-top: 10px;
+  color: black;
+  border-top: 2px solid #090909;
+}
+/* ---------- Styling Choices Options  ---------- */
+.choices button {
+  display: block;
+}
+
+/* ---------- Initials Input Style  ---------- */
+input[type="text"] {
+  font-size: 100%;
+}
+
+/* ---------- Ordered List of Scores in Highscores Page  ---------- */
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #8570a5;
+  color: white;
+}
+
+li:nth-child(even) {
+  background-color: white;
+}
 

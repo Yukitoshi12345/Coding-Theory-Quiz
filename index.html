@@ -44,15 +44,18 @@
     <!-- Shows if you got the answer correct or wrong -->
     <div class = "feedback hidden" id = "feedback"></div>
 
-    <!-- Shows the highscores/leaderboard page -->
-    <h1>Highscores</h1>
-    <p id = "highscores"></p>
-    <!-- Shows all highscores from best to worst -->
-    <ol></ol>
-    <!--------------Clicking Go Back will navigate you to main-page.html-------------->
-    <button type = "button" onclick = "goBack()">Go Back</button>
-    <!-- Clears the highscore board -->
-    <button id = "clear-highscores">Clear Highscores</button>
+    <section class = "show-highscore hidden" id = "leaderboard-section">
+      <!-- Shows the highscores/leaderboard page -->
+      <h1>Highscores</h1>
+      <p id = "highscores"></p>
+      <!-- Shows all highscores from best to worst -->
+      <ol></ol>
+      <!--------------Clicking Go Back will navigate you to home page-------------->
+      <button type = "button" onclick = "goBack()">Go Back</button>
+      <!-- Clears the highscore board -->
+      <button id = "clear-highscores">Clear Highscores</button>
+    </section>
+
   </main>
 
   <!-- Adding javascript for the questions and logic -->
