@@ -12,15 +12,48 @@
   <!--------------Clicking View Highscores will navigate you to highscores.html-------------->
   <header class="scores"><a href="view-highscores.html">View Highscores</a></header>
 
+  <!--------------Timer Countdown-------------->
+  <div class = "quiz-timer">Time Left: <span id = "timer">100</span></div>
 
+  <main>
+    <!-- Shows the main page section -->
+    <section class = "center" id = "main-menu">
+        <h1>Coding Quiz Game</h1>
+        <p>
+          Think carefully before answering! Each wrong answer comes with a 10-second penalty, 
+          so strive for correctness to excel in this code challenge.
+        </p>
+        <button id = "start">Start Quiz</button>
+    </section>
+    <!-- These are the questions section, it is hidden in the main page, and only comes up when you click the "Start Quiz" button -->
+    <section class = "hidden" id = "question-screen">
+        <h2 id = "questions"></h2>
+        <div class = "choices" id = "options"></div>
+    </section>
+    
+    <!-- This is the score-screen section, it is hidden in the main page, and only comes up when you completed the quiz -->
+    <section class = "hidden" id = "score-screen">
+        <h2>You have reached to the end!</h2>
+        <p>Your final score is <span id = "finalScore"></span>.</p>
+        <p>
+            Enter name: <input type="text" id = "name"/>
+            <button id = "submitButton">Submit</button>
+        </p>
+    </section>
 
+    <!-- Shows if you got the answer correct or wrong -->
+    <div class = "feedback hidden" id = "feedback"></div>
 
-
-
-
-
-
-
+    <!-- Shows the highscores/leaderboard page -->
+    <h1>Highscores</h1>
+    <p id = "highscores"></p>
+    <!-- Shows all highscores from best to worst -->
+    <ol></ol>
+    <!--------------Clicking Go Back will navigate you to main-page.html-------------->
+    <button type = "button" onclick = "goBack()">Go Back</button>
+    <!-- Clears the highscore board -->
+    <button id = "clear-highscores">Clear Highscores</button>
+  </main>
 
   <!-- Adding javascript for the questions and logic -->
   <script src="./assets/js/script.js"></script>
